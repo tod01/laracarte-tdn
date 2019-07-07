@@ -2,9 +2,9 @@
 
 @section('content')
 <div class="container">
-    <h2>What is Laracarte?</h2>
+    <h2>What is {{config('app.name')}}?</h2>
     <p>
-        Laracarte is a clone app of Laramap.com.
+        {{config('app.name')}} is a clone app of Laramap.com.
     </p>
 
     <div class="row">
@@ -22,7 +22,7 @@
 
     <h2>What is Laramap?</h2>
     <p>
-        Laramap is the website by which Laracarte was inspired :).
+        Laramap is the website by which {{config('app.name')}} was inspired :).
     </p>
 
     <p>
@@ -31,7 +31,7 @@
 
     <hr>
 
-    <h2>Which tools and services are used in Laracarte?</h2>
+    <h2>Which tools and services are used in {{config('app.name')}}?</h2>
 
     <p>
         Basically it's built on Laravel &amp; Bootstrap. But there's a bunch of services used for email and other sections.
